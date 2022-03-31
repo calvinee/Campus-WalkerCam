@@ -1,0 +1,142 @@
+{
+  "xclbin-location":"/usr/lib/dpu.xclbin",
+  "ivas-library-repo": "/opt/xilinx/lib",
+  "element-mode":"inplace",
+  "kernels" :[
+    {
+      "library-name":"libivas_airender.so",
+      "config": {
+        "fps_interval" : 10,
+        "font_size" : 2,
+        "font" : 1,
+        "thickness" : 2,
+        "debug_level" : 0,
+        "label_color" : { "blue" : 0, "green" : 0, "red" : 255 },
+        "label_filter" : [ "class", "probability" ],
+        "classes" : [
+                {
+                "name" : "aeroplane",
+                "blue" : 255,
+                "green" : 0,
+                "red" : 0
+                },
+                {
+                "name" : "bicycle",
+                "blue" : 0,
+                "green" : 255,
+                "red" : 0
+                },
+                {
+                "name" : "bird",
+                "blue" : 0,
+                "green" : 0,
+                "red" : 255
+                },
+                {
+                "name" : "boat",
+                "blue" : 50,
+                "green" : 0,
+                "red" : 50
+                },
+                {
+                "name" : "bottle",
+                "blue" : 50,
+                "green" : 50,
+                "red" : 0
+                },
+                {
+                "name" : "bus",
+                "blue" : 50,
+                "green" : 50,
+                "red" : 50
+                },
+                {
+                "name" : "car",
+                "blue" : 100,
+                "green" : 150,
+                "red" : 0
+                },
+                {
+                "name" : "cat",
+                "blue" : 100,
+                "green" : 0,
+                "red" : 150
+                },
+                {
+                "name" : "chair",
+                "blue" : 100,
+                "green" : 255,
+                "red" : 150
+                },
+                {
+                "name" : "cow",
+                "blue" : 255,
+                "green" : 255,
+                "red" : 100
+                },
+                {
+                "name" : "diningtable",
+                "blue" : 100,
+                "green" : 155,
+                "red" : 250
+                },
+                {
+                "name" : "dog",
+                "blue" : 200,
+                "green" : 255,
+                "red" : 50
+                },
+                {
+                "name" : "horse",
+                "blue" : 255,
+                "green" : 255,
+                "red" : 155
+                },
+                {
+                "name" : "motorbike",
+                "blue" : 255,
+                "green" : 0,
+                "red" : 200
+                },
+                {
+                "name" : "person",
+                "blue" : 100,
+                "green" : 200,
+                "red" : 90
+                },
+                {
+                "name" : "pottedplant",
+                "blue" : 90,
+                "green" : 155,
+                "red" : 90
+                },
+                {
+                "name" : "sheep",
+                "blue" : 150,
+                "green" : 150,
+                "red" : 50
+                },
+                {
+                "name" : "sofa",
+                "blue" : 50,
+                "green" : 255,
+                "red" : 150
+                },
+                {
+                "name" : "train",
+                "blue" : 90,
+                "green" : 90,
+                "red" : 90
+                },
+                {
+                "name" : "tvmonitor",
+                "blue" : 255,
+                "green" : 255,
+                "red" : 255
+                }
+           	
+                ]
+        }
+    }
+]                
+}

@@ -1,0 +1,31 @@
+model {
+  name: "yolov2tiny"
+  kernel {
+     name: "yolov2tiny"
+     mean: 0.0
+     mean: 0.0
+     mean: 0.0
+     scale: 0.00390625
+     scale: 0.00390625
+     scale: 0.00390625
+  }
+  model_type : YOLOv3
+ yolo_v3_param {
+    num_classes: 20
+    anchorCnt: 5
+    conf_threshold: 0.3
+    nms_threshold: 0.45
+    biases: 1.08
+    biases: 1.19
+    biases: 3.42
+    biases: 4.41
+    biases: 6.63
+    biases: 11.38
+    biases: 9.42
+    biases: 5.11
+    biases: 16.62
+    biases: 10.52
+    test_mAP: false
+  }
+  is_tf : true
+}

@@ -6,15 +6,15 @@ AMD-XilinxAdaptive Computing Challenge
 
 # Things
 ## Hardware components
-AMD-Xilinx Kria KV260 Vision AI Starter Kit
-A laptop with an Nvidia graphics card (RTX2060)
-A DP monitor
-Several network cables
+AMD-Xilinx Kria KV260 Vision AI Starter Kit \
+A laptop with an Nvidia graphics card (RTX2060) \
+A DP monitor \
+Several network cables \
 
 ## Software apps and online services
 
-AMD-Xilinx Vitis Unified Software Platform
-VMware Station pro 16
-Ubuntu18.04
-Vitis AI 1.4
-Balena Etcher tool 
+AMD-Xilinx Vitis Unified Software Platform \
+VMware Station pro 16 \
+Ubuntu18.04 \
+Vitis AI 1.4 \
+Balena Etcher tool \ 
